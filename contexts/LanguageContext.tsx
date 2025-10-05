@@ -15,7 +15,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     const fetchTranslations = useCallback(async (lang: string) => {
         try {
             // Use relative paths for module resolution
-            const response = await fetch(`./locales/${lang}.json`);
+            const response = await fetch(`/locales/${lang}.json`);
             if (!response.ok) {
                 throw new Error(`Could not load translations for ${lang}`);
             }
