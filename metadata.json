@@ -1,0 +1,7 @@
+{
+  "name": "attention.ai",
+  "description": "attention.ai is an interactive, AI-powered learning platform designed to motivate students and support teachers with gamified learning, real-time feedback, and a helpful AI doubt buddy.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
